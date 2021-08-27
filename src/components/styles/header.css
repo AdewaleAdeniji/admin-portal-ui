@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    left: 80px;
+    background: #fdfdfd;
+    /* border-bottom: 1px solid #f3f3f3; */
+    width: calc(100% - 80px);
+    height: 80px;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 20%);
+}
+
+.headertitle {
+    font-size: 20px;
+    float: left;
+    margin-left: 40px;
+    font-family: 'DM Sans';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sidebar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+.sidebar {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar i {
+    margin-right: 30px;
+    color: #d5d5d5;
+    font-size: 20px;
+}
